@@ -1,0 +1,45 @@
+
+body{
+    font-family :'Times New Roman', Times, serif;
+    margin : 2mm;
+    text-align: center;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin: 2mm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.grid-container{
+    width:50vw;
+    height: 50vw;
+    background-color: rgb(50, 182, 138);
+    justify-content: center;
+}
+.options-container{
+    display:grid;
+    grid-template-columns: 151px 151px;
+    justify-content: center;
+}
+
+.colors-container{
+    display:grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+.wht-sqr{
+    height: calc(50vw/25);
+    width: calc(50vw/25);
+    background-color: white;
+}
+.color{
+    width:50px;
+    border-radius: 50px;
+    background-color: red;
+}
+.hide{
+    display:none;
+}
