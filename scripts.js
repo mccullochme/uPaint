@@ -4,7 +4,7 @@ let x_curr = 0;
 let y_curr = 0;
 
 //to allow to keep the same color when moving
-let color_current = "blue";
+let color_current = "white";
 
 document.addEventListener('keydown', function (event) {
     
